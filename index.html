@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body id="body">
+   
+   <script src="./prueba.js"></script>
+<div class="container" id="container"></div>
+   <input type="button" value="NEW BOOK" class="newBook" onclick="showForm()">
+
+   <form id="formElement" style="display:none;">
+    <div class="titulo"><label>Título del libro</label><input type ="text" name="titulo" id="titulo" required></div>
+    <div class="autor"><label>Autor del libro</label><input type ="text" name="autor" id="autor" required></div>
+    <div class="paginas"><label>Páginas<br></label><input type ="number" name="paginas" id="paginas" required></div>
+    <div class="leido"><label>¿Lo has leído?</label>
+    <select name="leido" id="leidodesplegable" required>
+        <option value="Leido" id="sileido">No</option>
+        <option value="No leido" id="noleido">Si</option>
+    </select>
+    </div>
+    <input type="button" value="SUBMIT" class="submitButton" onclick="asign(), hideForm()">
+    </form>
+    
+</body>
+</html>

@@ -1,0 +1,98 @@
+body{
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+ .container{
+    
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    left: 0;
+ }
+.newBook{
+    background-color: blue;
+    color: white;
+    border: solid 1px black;
+    border-radius: 10px;
+    width: 15vh;
+    height: 8vh;
+    margin-left: 30vh;
+    
+}
+
+.newBook:hover{
+    background-color: yellow;
+    color: black;
+    cursor: grab;
+}
+
+#formElement{
+    position: absolute;
+    width: 40vh;
+    height: 60vh;
+    border: solid 5px black;
+    border-radius: 10px;
+    background-color: aquamarine;
+    
+
+}
+
+.titulo{
+    
+    position: relative;
+    left: 5vh;
+    top: 7vh;
+}
+
+.autor{
+    position: relative;
+    left: 5vh;
+    top: 9vh;
+}
+
+.paginas{
+    position: relative;
+    left: 5vh;
+    top: 12vh;
+}
+
+.leido{
+    position: relative;
+    left: 5vh;
+    top: 15vh;
+}
+
+
+.submitButton{
+    color: white;
+    height: 10vh;
+    width: 20vh;
+    border-radius: 20px;
+    position: relative;
+    left: 10vh;
+    top: 20vh;
+    background-color: blue;
+  
+}
+
+label {
+    font-weight: bold;
+}
+
+.submitButton:hover{
+
+    background-color: orange;
+    cursor: grab;
+    color: blue;
+    font-weight: bold;
+
+}
+
+.cursorPointerClass{
+    cursor: grab;
+}
